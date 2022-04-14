@@ -1,4 +1,4 @@
-require_relative './solver'
+require_relative '../solver'
 
 describe 'Solver class' do
   before(:each) do
@@ -20,28 +20,28 @@ describe 'Solver class' do
       expect(result).to eq 'dihcer'
     end
 
-    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do 
+    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do
       num = 8
       result = @solve.fizzbuzz(num)
 
       expect(result).to eq '8'
     end
 
-    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do 
+    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do
       num = 5
       result = @solve.fizzbuzz(num)
 
       expect(result).to eq 'buzz'
     end
 
-    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do 
+    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do
       num = 3
       result = @solve.fizzbuzz(num)
 
       expect(result).to eq 'fizz'
     end
 
-    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do 
+    it 'Fizzbuzz return fizz, buzz, fizzbuzz or value given base on the arggument given' do
       num = 15
       result = @solve.fizzbuzz(num)
 
